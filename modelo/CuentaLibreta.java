@@ -11,11 +11,11 @@ public class CuentaLibreta extends Cuenta
 
     public void depositar(double cantidad)
     {
-        saldo = saldo + cantidad;
+        saldo = saldo*0.8 + cantidad;
     }
 
     public void retirar(double cantidad)
     {
-        saldo = saldo - cantidad;
+        saldo = saldo*0.2 - cantidad;
     }
 }
