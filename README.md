@@ -8,3 +8,6 @@ Consideremos tres tipos de cuentas: cuenta corriente, de ahorro y de libreta 202
 3. La app debe permitir crear objetos de las distintas clases, inicializando las cuentas con unos valores iniciales.
 Ademas, debe permitir consignar y retirar fondos de casa una de las cuentas, actualizando saldos y los respectivos intereses. 
 
+## Diagrama de clases
+
+![Diagrama de clases](class-diagram.png "Diagrama de clases")
