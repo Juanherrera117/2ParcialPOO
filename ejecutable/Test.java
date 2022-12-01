@@ -11,11 +11,6 @@ public class Test
     public static void main(String[] args) 
     {
         //Entrada de datos
-        double x = Double.parseDouble(JOptionPane.showInputDialog("Ingrese un saldo: "));
-
-        //Creacion de un objeto Suma
-        CuentaCorriente miCuentaCorriente = new CuentaCorriente();
-        miSuma.sumar();
-        JOptionPane.showMessageDialog(null, "La suma de " + x + " y " + y + " es " + miSuma.mostrarResultado());   
+        double x = Double.parseDouble(JOptionPane.showInputDialog("Ingrese un deposito: "));
     }
 }
